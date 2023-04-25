@@ -41,6 +41,8 @@ dependencies:
   flutter_blue_plus: ^1.4.0
   permission_handler: ^10.2.0
   fluttertoast: ^8.2.1
+  equatable:
+  google_fonts:
 
 dev_dependencies:
   flutter_test:

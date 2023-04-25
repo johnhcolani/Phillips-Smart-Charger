@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
     return Sizer(
         builder: (context, orientation, deviceType) {
           return MaterialApp(
+
             debugShowCheckedModeBanner: false,
             onGenerateRoute: RouteGenerator.getRoute,
             initialRoute: Routes.splashRoute,

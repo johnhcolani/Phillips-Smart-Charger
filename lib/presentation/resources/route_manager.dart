@@ -24,7 +24,7 @@ class RouteGenerator {
       case Routes.onBordingRoute:
         return MaterialPageRoute(builder: (_)=> const OnBoarding());
       case Routes.homeRoute:
-        return MaterialPageRoute(builder: (_)=> const HomeView());
+        return MaterialPageRoute(builder: (_)=>  HomeView(deviceName: '', idNumber: '',));
       default:
         return unDefinedRoute();
     }

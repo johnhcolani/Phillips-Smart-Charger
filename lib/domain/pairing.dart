@@ -1,7 +1,8 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_blue_plus/flutter_blue_plus.dart';
+import 'package:flutter_blue/flutter_blue.dart';
+
 import 'package:permission_handler/permission_handler.dart';
 
 
@@ -14,7 +15,7 @@ class PairingPage extends StatefulWidget {
 }
 
 class _PairingPageState extends State<PairingPage> {
-  final FlutterBluePlus _flutterBlue = FlutterBluePlus.instance;
+  final FlutterBlue _flutterBlue = FlutterBlue.instance;
 
   void Ble (){
 
@@ -74,7 +75,7 @@ class _PairingPageState extends State<PairingPage> {
     });
 
     // Pair with the selected device
-    await device.pair();
+    // await device.pair();
 
     // Discover the services offered by the device
     List<BluetoothService> services = await device.discoverServices();

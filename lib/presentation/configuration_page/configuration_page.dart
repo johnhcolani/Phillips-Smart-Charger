@@ -4,8 +4,8 @@ import 'package:phillips_smart_charger/presentation/resources/app_background.dar
 import 'package:phillips_smart_charger/presentation/resources/color_manager.dart';
 import 'package:phillips_smart_charger/presentation/resources/main_button.dart';
 import 'package:phillips_smart_charger/presentation/resources/values_manager.dart';
-import 'package:phillips_smart_charger/presentation/trailer_id/trailer_id.dart';
 import 'package:sizer/sizer.dart';
+import '../trailer_id_page/trailer_id.dart';
 
 class ConfigurationPage extends StatefulWidget {
   String deviceName;

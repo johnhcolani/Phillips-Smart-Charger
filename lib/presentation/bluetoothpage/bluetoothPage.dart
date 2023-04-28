@@ -22,6 +22,7 @@ class BluetoothPage extends StatefulWidget {
 }
 
 class _BluetoothPageState extends State<BluetoothPage> {
+
   final FlutterBluePlus _flutterBlue = FlutterBluePlus.instance;
 late String deviceName;
 late String deviceId;

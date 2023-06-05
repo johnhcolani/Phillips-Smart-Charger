@@ -16,7 +16,7 @@ ThemeData getApplicationTheme(){
       // ripple color
       splashColor: ColorManager.primaryOpacity70,
       // will be used incase of disabled button for example
-      accentColor: ColorManager.panGery,
+      //accentColor: ColorManager.panGery,
       // card view theme
       cardTheme: CardTheme(
           color: ColorManager.white,

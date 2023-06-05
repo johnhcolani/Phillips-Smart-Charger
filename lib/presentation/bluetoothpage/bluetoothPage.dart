@@ -273,22 +273,22 @@ late String deviceId;
                         child: CircularProgressIndicator(),
                       )
                     : ListView.builder(
-                        itemCount: _devicesList
-                            .where((device) =>
-
-                                    device.device.name.contains("ESP") ||
-                                device.device.name.contains("Phillips"))
-                            .length,
-                        //itemCount: _devicesList.length,
+                        // itemCount: _devicesList
+                        //     .where((device) =>
+                        //
+                        //             device.device.name.contains("ESP") ||
+                        //         device.device.name.contains("Phillips"))
+                        //     .length,
+                        itemCount: _devicesList.length,
                         itemBuilder: (BuildContext context, int index) {
-                          final device = _devicesList
-                              .where((device) =>
-
-                                      device.device.name.contains("ESP") ||
-                                  device.device.name.contains("Phillips"))
-                              .toList()[index]
-                              .device;
-                           //final device = _devicesList[index].device;
+                          // final device = _devicesList
+                          //     .where((device) =>
+                          //
+                          //             device.device.name.contains("ESP") ||
+                          //         device.device.name.contains("Phillips"))
+                          //     .toList()[index]
+                          //     .device;
+                           final device = _devicesList[index].device;
                           return Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Column(
